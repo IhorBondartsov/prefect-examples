@@ -4,6 +4,7 @@ from prefect.storage import GitHub
 @task
 def print_data(data):
     print(data)
+    print(data)
 
 with Flow(name="example") as flow:
     print_data("asd")
