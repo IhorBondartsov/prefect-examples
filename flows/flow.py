@@ -8,6 +8,7 @@ def print_data(data):
 
 with Flow(name="example") as flow:
     print_data("asd")
+    print_data("asd")
 
 
 flow.storage = GitHub(
